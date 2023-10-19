@@ -1,0 +1,62 @@
+body {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0;
+  border: 5px solid black;
+}
+
+.output {
+  font-size: 40px;
+  background-color: lightblue;
+  padding: 3px;
+}
+
+div {
+  display: inline;
+}
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.stacked {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 50px;
+  height: 75px;
+  background-color: teal;
+  color: white;
+}
+
+.output {
+  text-align: right;
+}
+
+.long {
+  width: 100px;
+}
+
+.operators button {
+  background-color: purple;
+}
+
+.extras button {
+  background-color: gray;
+}
+
+#evaluate {
+  background-color: turquoise;
+}
+
+#clear {
+  background-color: orchid;
+}
